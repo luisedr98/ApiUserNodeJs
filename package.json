@@ -1,0 +1,22 @@
+{
+  "name": "usersapijs",
+  "version": "1.0.0",
+  "description": "User api with express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Luis Dominguez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.29.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
