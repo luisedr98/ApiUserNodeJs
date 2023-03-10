@@ -28,5 +28,8 @@ try {
 //* allow to read the body in the request
 app.use(express.json());
 
+//* allow to use query expresion
+app.use(express.query());
+
 //* define the routes
 app.use("/", userRoutes);
